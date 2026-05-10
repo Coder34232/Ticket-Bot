@@ -1,7 +1,7 @@
 export default {
 
   colors: {
-    primary:   0x2ECC71,   // Minecraft green
+    primary:   0x2ECC71,
     success:   0x57F287,
     warning:   0xFEE75C,
     error:     0xED4245,
