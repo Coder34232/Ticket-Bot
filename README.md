@@ -26,11 +26,11 @@ npm run deploy
 
 # 5. Start the bot
 npm start
-```
+``
 
 Then in Discord: run `/panel` in any channel → the ticket panel appears.
 
----
+``
 
 ## ⚙️ .env Configuration
 
