@@ -1,0 +1,19 @@
+{
+  "name": "ticket-bot",
+  "version": "1.0.0",
+  "description": "Bot de tickets avançado para comunidade de developers",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start":  "node src/index.js",
+    "dev":    "node --watch src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv":     "^16.4.1"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  }
+}
