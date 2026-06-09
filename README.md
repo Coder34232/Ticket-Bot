@@ -27,20 +27,7 @@ cp .env.example .env
 
 ### 4. Edit .env with your values
 
-### 5. Register slash commands
-```bash
-npm run deploy
-```
-
-### 6. Start the bot
-```bash
-npm start
-```
-
-Then in Discord: run `/panel` in your ticket channel → the ticket panel appears.
-
-
-## ⚙️ .env Configuration
+#### ⚙️ .env Configuration
 
 | Variable | Required | Description |
 |---|---|---|
@@ -63,6 +50,19 @@ Then in Discord: run `/panel` in your ticket channel → the ticket panel appear
 | `ROLE_BANNED` | — | Required role to open an appeal ticket |
 | `MAX_TICKETS` | — | Max concurrent tickets before waitlist (default: 50) |
 | `AUTO_CLOSE_HOURS` | — | Hours of inactivity before auto-close (0 = off) |
+
+
+### 5. Register slash commands
+```bash
+npm run deploy
+```
+
+### 6. Start the bot
+```bash
+npm start
+```
+
+Then in Discord: run `/panel` in your ticket channel → the ticket panel appears.
 
 ---
 
