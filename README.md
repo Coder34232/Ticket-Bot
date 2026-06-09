@@ -11,26 +11,34 @@ Advanced support ticket bot for Minecraft servers built with Discord.js v14.
 ## 🚀 Quick Start
 
 
-# 1. Extract the zip to a folder
+### 1. Extract the zip to a folder
+```bash
 cd ticket-bot
-
-# 2. Install dependencies (~5 seconds)
+```
+### 2. Install dependencies (~5 seconds)
+```bash
 npm install
+```
 
-# 3. Copy and configure your .env
+### 3. Copy and configure your .env
+```bash
 cp .env.example .env
-# Edit .env with your values
+```
 
-# 4. Register slash commands
+### 4. Edit .env with your values
+
+### 5. Register slash commands
+```bash
 npm run deploy
+```
 
-# 5. Start the bot
+### 6. Start the bot
+```bash
 npm start
-``
+```
 
-Then in Discord: run `/panel` in any channel → the ticket panel appears.
+Then in Discord: run `/panel` in your ticket channel → the ticket panel appears.
 
-``
 
 ## ⚙️ .env Configuration
 
